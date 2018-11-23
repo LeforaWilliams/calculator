@@ -2,7 +2,7 @@
     "name": "calculator-cc",
     "version": "1.0.0",
     "main": "index.js",
-    "homepage": "https://leforawilliams.githu.io/gpages",
+    "homepage": "https://leforawilliams.githu.io/calculator",
     "scripts": {
         "build": "node build.js",
         "pre-deploy": "npm run build",
@@ -64,6 +64,5 @@
     "bugs": {
         "url": "https://github.com/LeforaWilliams/calculator/issues"
     },
-    "homepage": "https://github.com/LeforaWilliams/calculator#readme",
     "description": ""
 }
