@@ -4,10 +4,10 @@
     "main": "index.js",
     "homepage": "https://leforawilliams.githu.io/calculator",
     "scripts": {
+        "start": "node index.js",
         "build": "node build.js",
         "pre-deploy": "npm run build",
         "deploy": "gh-pages -d build.js",
-        "start": "node index.js",
         "test": "echo \"Error: no test specified\" && exit 1"
     },
     "engines": {
