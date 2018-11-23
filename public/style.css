@@ -1,0 +1,74 @@
+body {
+    font-family: monospace;
+    margin: 0;
+    background-image: linear-gradient(30deg, #fff, #00f);
+}
+
+.flex {
+    display: flex;
+}
+.column {
+    flex-direction: column;
+}
+
+.flex-grow {
+    flex-grow: 1fr 1fr 2fr;
+}
+
+.app-wrap {
+    border: 1px solid green;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.screen-wrap {
+    justify-content: center;
+    margin-bottom: 4px;
+}
+
+.screen-wrap input {
+    all: unset;
+    outline: 2px solid black;
+    height: 3rem;
+    width: 15rem;
+    font-size: 1.3rem;
+    text-align: right;
+    cursor: pointer;
+}
+
+.keyboard {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.4rem;
+    border: 2px solid black;
+    width: 15rem;
+}
+
+.key-row {
+    display: flex;
+    flex-direction: column;
+}
+.screen-wrap {
+    display: flex;
+}
+
+.key-row input {
+    all: unset;
+    height: 3.5rem;
+    width: 2.5rem;
+
+    font-size: 1.5rem;
+    padding: 0 10px;
+}
+
+.key-row input:hover {
+    background: blue;
+    color: white;
+    transition: 0.3s ease-in-out;
+}
+
+input.equal {
+    height: 7rem;
+}
