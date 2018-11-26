@@ -1,5 +1,4 @@
 import React from "react";
-import Button from "./button.js";
 import Screen from "./screen.js";
 import Keyboard from "./keyboard.js";
 
@@ -30,10 +29,10 @@ class App extends React.Component {
         let operatorSign = "";
 
         let { input } = this.state;
-        // when eqal sign is clicked >>
+
+        // when eqal sign is clicked
         if (e == "=") {
             let sol = this.regexCalc(input);
-            console.log("the result", sol);
             this.setState({ input: sol });
         }
 
@@ -51,13 +50,15 @@ class App extends React.Component {
             this.setState({
                 input: (input += e)
             });
-            //calculations
         }
     }
 
     render() {
         return (
             <div className="app-wrap flex column">
+                <a href="https://github.com/LeforaWilliams/calculator">
+                    GitHub
+                </a>
                 <Screen value={this.state.input} />
                 <Keyboard handleClick={this.handleClick} />
             </div>

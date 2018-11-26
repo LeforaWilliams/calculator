@@ -4,6 +4,13 @@ body {
     background-image: linear-gradient(30deg, #fff, #00f);
 }
 
+a {
+    color: black;
+    position: fixed;
+    top: 5px;
+    left: 5px;
+}
+
 .flex {
     display: flex;
 }
@@ -16,7 +23,6 @@ body {
 }
 
 .app-wrap {
-    border: 1px solid green;
     height: 100vh;
     justify-content: center;
     align-items: center;
