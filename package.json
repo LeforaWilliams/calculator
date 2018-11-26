@@ -4,8 +4,8 @@
     "main": "index.js",
     "homepage": "https://leforawilliams.githu.io/calculator",
     "scripts": {
-        "start": "node index.js",
         "build": "node build.js",
+        "start": "node index.js",
         "pre-deploy": "npm run build",
         "deploy": "calculator -d build.js",
         "test": "echo \"Error: no test specified\" && exit 1"
